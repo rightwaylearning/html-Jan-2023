@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <style>
+        /* only for presentation */
+        
+        .parent {
+            position: relative;
+        }
+        
+        .parent span {
+            position: absolute;
+            left: 142px;
+            background: bisque;
+            margin-top: 2px;
+            width: 33px;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>JavaScript const</h2>
+
+    <div>
+        <div class="parent">
+            <input type="password" placeholder="type old password">
+            <span>show</span>
+        </div>
+        <br>
+        <div class="parent">
+            <input type="password" placeholder="type new password">
+            <span>show</span>
+        </div>
+        <br>
+        <div class="parent">
+            <input type="password" placeholder="type again new password">
+            <span>show</span>
+        </div>
+    </div>
+
+    <script>
+        var parent = document.querySelector(".parent");
+
+        // password show/hide helper function
+        function showHide(input, showText) {
+            if (input.getAttribute("type") === "password") {
+                input.setAttribute("type", "text");
+                showText.innerText = "hide";
+            } else {
+                input.setAttribute("type", "password");
+                showText.innerText = "show";
+            }
+        }
+
+        // event delegation on event target match
+        parent.addEventListener("click", event => {
+            if (event.target.matches("span")) {
+                var spanElm = event.target;
+                var inputElm = spanElm.previousElementSibling;
+                showHide(inputElm, spanElm);
+            }
+        });
+    </script>
+</body>
+
+</html>
