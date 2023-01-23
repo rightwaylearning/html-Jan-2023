@@ -1,0 +1,9 @@
+html>
+    <head>
+        <title>Italic Tag</title>
+    </head>
+    <body>
+        <h3>Italic tag Example</h3>
+        <h1>This is normal text. <i>this is italic text</i></h1>
+    </body>
+</html>
