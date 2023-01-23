@@ -1,0 +1,12 @@
+html>
+    <head>
+        <title>img tag</title>
+    </head>
+    <body>
+        <img src="Suryakumar.jpg" width="300px" height="300px">
+        <h5>Surya Kumar Yadav</h5>
+        <br><br>
+        <p><b>Full name:</b>	            Suryakumar Ashok Yadav</p>
+        <p><b>Born</b>	14 September 1990 (age 32)</p>
+    </body>
+</html>
