@@ -1,0 +1,24 @@
+public class Mathsopt{
+  public int a;
+  public int b;
+
+public int sum();{
+  int s=a+b;
+  return s;
+}
+ public int minus();{
+  int m=a-b;
+  return m;
+}
+}
+ class Entrypoint{
+  public static void main (String[] args);{
+
+ Mathopt m = New Mathopt();
+ m.a=100;
+ m.b=200;
+ int r = m.sum ();
+System.out.println(r);
+int r1 = m.minus();
+system.out.println(r1);
+}
