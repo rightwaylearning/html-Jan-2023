@@ -1,0 +1,8 @@
+<html>
+    <head></head>
+    <body>
+        <h1>a tag with target attribute</h1>
+        <a href="https://en.wikipedia.org/wiki/Shubman_Gill" target="_blank">Shubham Gill</a>
+    </body>
+</html>
+
