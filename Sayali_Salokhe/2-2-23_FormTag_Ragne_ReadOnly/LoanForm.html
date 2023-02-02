@@ -1,8 +1,33 @@
 <html>
 <head><title>Loan Calculator</title></head>
 <body>
-    <h3>Loan Calculator</h3>
-    Loan Amount:<input type="number"  min="20000" max="100000000" name="amount" id="t1"><br><br>
-    
+    <form>
+      <table border="1">
+       <tr><th><h3>Loan Calculator</h3></th>
+       </tr>
+       <tr>
+        <td>
+          Loan Amount:<input type="number"  min="20000" max="100000000" name="amount" id="t1">₹<br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+          Intrest Rate:<input type="number"  min="1" max="25" name="rate" id="t2">%<br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Loan Tenure:<input type="number"  min="1" max="50" name="tenur" id="t3">Year/month<br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit"   name="submit" id="b1">
+            <input type="reset"   name="reset" id="b2">
+        </td>
+        
+    </tr>
+      </table> 
+    </form>
 </body>
 </html>
