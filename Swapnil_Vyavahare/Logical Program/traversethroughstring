@@ -1,0 +1,9 @@
+a="Rohan"
+j=0
+
+# for i in range(0, 5):
+#     print(str[i])
+
+while j<5:
+    print(a[j])
+    j=j+1
