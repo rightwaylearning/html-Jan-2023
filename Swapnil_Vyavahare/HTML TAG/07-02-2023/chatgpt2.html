@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Webpage</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of experienced professionals dedicated to providing the best possible services to our clients.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023 My Webpage</p>
+    </footer>
+  </body>
+</html>

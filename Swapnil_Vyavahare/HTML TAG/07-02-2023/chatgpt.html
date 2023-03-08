@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .login-form {
+        width: 300px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        font-size: 14px;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+        border: none;
+      }
+
+      .btn:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-form">
+      <h2>Login</h2>
+      <form action="#">
+        <div>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username"
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </div>
+  </body>
+</html>
