@@ -1,0 +1,12 @@
+#mycss{
+    background-color: rgb(200, 146, 58);
+    border: 10px solid black;
+    
+}
+#outer{
+
+    background-color: aqua;
+    border: 10px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
