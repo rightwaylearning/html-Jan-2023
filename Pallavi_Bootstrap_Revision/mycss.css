@@ -1,0 +1,10 @@
+#mycss{
+    background-color: pink;
+    border: 10px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#outer{
+    border: 10px solid black;
+    
+}
