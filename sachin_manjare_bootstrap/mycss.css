@@ -1,0 +1,18 @@
+#mycss{
+
+background-color: rgb(206, 219, 219);
+border: 2px solid red;
+
+
+
+}
+#outer{
+
+border: 20px solid yellow;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+
+
+}
