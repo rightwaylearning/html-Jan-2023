@@ -1,0 +1,9 @@
+#mycss{
+    background-color: blue;
+    border: 10px solid coral;
+}
+#friction{
+    border: 10px chartreuse solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
