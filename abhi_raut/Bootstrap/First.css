@@ -1,0 +1,13 @@
+#First{
+
+    color: rgb(246, 255, 0);
+    background-color: rgb(195, 213, 213);
+    border: 10px solid black;
+    
+}
+
+#outer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 10px solid red;
+}

@@ -1,0 +1,60 @@
+
+table, th, td{
+
+
+    /* border: 1px solid black; */
+   
+    /* border: 1px dotted black; */
+    /* border: 1px dashed black; */
+    /* border: 1px groove black; */
+    /* border: 1px none black; */
+    
+    
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: blueviolet;
+
+
+}
+
+table{
+
+    width: 100%;
+}
+
+th, td{
+
+   text-align: center;
+   /* padding: 50px; */
+}
+
+tr{
+
+    height: 50px;
+}
+
+/* tr:nth-child(odd){
+
+    background-color: rgb(123, 150, 141);
+
+}
+
+td:nth-child(even){
+    background-color: rgb(123, 150, 141);
+}
+
+th:nth-child(even){
+
+    background-color: rgb(133, 190, 26);
+} */
+
+td:hover, th:hover {
+
+    background-color: aquamarine;
+}
+
+
+
+
+    
+
