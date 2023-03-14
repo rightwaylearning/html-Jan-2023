@@ -1,0 +1,21 @@
+#h1{
+    margin: 10px 100px 10px 200px;
+
+}
+
+#p1{
+    background-color: rgb(212, 188, 8);
+    padding: 10px;
+    margin: 10px;
+}
+
+.My_border{
+    border: 2px double rgb(18, 13, 9);
+  }
+
+  #A1{
+    background-color: rgb(252, 165, 24) ;
+    Color:blue;
+  }
+
+  
