@@ -1,9 +1,0 @@
-.outer{
-    background-color:blue;
-    padding: 20px;
-    border: black solid 10px;
-}
-.inner{
-    background-color: blueviolet;
-    border: black solid 10px;
-}
