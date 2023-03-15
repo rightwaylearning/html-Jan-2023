@@ -1,0 +1,22 @@
+#id1{
+    border: 20px solid black;
+    background-color: sienna;
+    color: rgb(76, 0, 255);
+    font-size: 2rem;
+    background-color:orange;
+    border: 100px;
+    margin: auto;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid black;
+}
+#h1,h2{
+    font-size: 2rem;
+    background-color: cyan;
+    border: 100px;
+    border: 15px solid black;
+    margin: auto;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+}
