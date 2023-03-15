@@ -1,0 +1,48 @@
+<html>
+<head>
+     <meta name="viewport"content="width=device-width">
+     <link rel="stylesheet"href="./../lib/css/bootstrap.css">
+     <script src="./../lib/jquary-3.6.3.js"></script>
+     <script src="./../lib/popper.min.js"></script>
+</head>
+      <body>
+        <div class="-container-fluid"></div>
+        <div class="row"   
+               <div class="col-4"></div>
+                   <h1>Rose</h1>
+                   <p>A rose is either a woody perennial flowering plant of the genus Rosa (/ˈroʊzə/),[1] in the family Rosaceae (/roʊˈzeɪsiːˌiː/),[1] or the flower it bears. There are over three hundred species and tens of thousands of cultivars.[citation needed] They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.[2] Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa.[2] Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height.[2] Different species hybridize easily, and this has been used in the development of the wide range of garden roses.
+
+
+                    Rosa hemisphaerica (syn.: Rosa sulphurea), watercolor by Pierre-Joseph Redouté (1759-1840)
+                    </p>
+                    
+               <div class="col-4"></div>
+                   <h1>Tuberose</h1>
+                   <p>Tuberose (Polianthes tuberosa L.)is one of the most important tropical ornamental bulbous flowering plants cultivated for the production of long-lasting flower spikes. It is popularly known as Rajanigandha or Nishigandha. It belongs to the family Amaryllidaceae and is native to Mexico. Tuberose is an important commercial cut as well as a loose flower crop due to its pleasant fragrance, longer vase-life of spikes, higher returns, and wide adaptability to varied climates and soil. They are valued much by the aesthetic world for their beauty and fragrance. The flowers are attractive and elegant with a sweet fragrance. It has long been cherished for the aromatic oils extracted from its fragrant white flowers. Tuberose blooms throughout the year and its clustered spikes are rich in fragrance; florets are star-shaped, waxy, and loosely arranged on a spike that can reach up to 30 to 45 cm in length. The flower is very popular for its strong fragrance and its essential oil is an important component of high-graded perfumes. ‘Single’ varieties are more fragrant than ‘Double’ types and contain 0.08 to 0.14 percent concrete which is used in high-grade perfumes. There is high demand for tuberose concrete and absolute in international markets which fetch a very good price. Flowers of the Single type (single row of perianth) are commonly used for extraction of essential oil, loose flowers, making garlands, etc., while that of Double varieties (more than two rows of perianth) are used as cut flowers, garden display, and interior decoration. The fragrance of flowers is very sweet, floral, and honey-like and can help give emotional strength. The flower spike of tuberose remains fresh for a long time and finds a distinct place in the flower markets. Due to its immense export potential, the cultivation of tuberose is gaining momentum day by day in our country.
+
+                    </p>
+               <div class="col-4"></div>
+                   <h1>Hibiscus</h1>
+                    <p>Hibiscus[2][3] is a genus of flowering plants in the mallow family, Malvaceae. The genus is quite large, comprising several hundred species that are native to warm temperate, subtropical and tropical regions throughout the world. Member species are renowned for their large, showy flowers and those species are commonly known simply as "hibiscus", or less widely known as rose mallow. Other names include hardy hibiscus, rose of sharon, and tropical hibiscus.
+
+                        The genus includes both annual and perennial herbaceous plants, as well as woody shrubs and small trees. The generic name is derived from the Greek name ἰβίσκος (ibískos) which Pedanius Dioscorides gave to Althaea officinalis (c. 40–90 AD).[4][5]
+                        
+                        Several species are widely cultivated as ornamental plants, notably Hibiscus syriacus and Hibiscus rosa-sinensis.[6]
+                        
+                        A tea made from hibiscus flowers is known by many names around the world and is served both hot and cold. The beverage is known for its red colour, tart flavour, and vitamin C content.
+                        
+                        </p>
+
+
+
+      </body>
+
+
+
+
+
+
+
+
+
+</html>
