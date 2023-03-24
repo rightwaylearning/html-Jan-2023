@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./../lib/css/bootstrap.css">  
+    <script src="./../lib/js/bootstrap.min.js"></script>
+    <script src="./../lib/jquery-3.6.3.js"></script>
+    <script src="./../lib/popper.min.js"></script>
+</head>
+<body>
+    <div style="border: 5px solid black;" class="container">
+    <div  class="row">
+        <div class="col-10">
+            <h1 class="display-4"> Registration</h1>
+            <form class="needs-validation" non-validate="nonvalidate">
+                <div class="form-group">
+                    <div class="row">
+                    <div class="col-2">
+                    <label for="id1" class="form-label"> Enter Full Name</label>
+                    </div>
+                    <div class="col-10">
+                        <input type="text" class="form-control" id="id1" name="fname" >
+                    </div>
+                    </div>
+                </div>
+                <div class="form-group" mt-5>
+                    <div class="row">
+                        <div class="col-2">
+                            <label class="form-label" for="id2" > Enter email</label>
+                            </div>
+                            <div class="col-10">
+                                <input type="email" name="mail" id="id2"  class="form-control">                          
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-2">
+                            <label class="form-label" for="id3" class="form-label"> Enter Passward</label>
+                        </div>
+                        <div class="col-10">
+                            <input type="password" class="form-control" name="pwd">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" mt-5>
+                    <div class="row">
+                        <div class="col-2">
+                            <label for="id4">Select Country</label>
+                        </div>
+                        <div class="col-10">
+                            <select name="country" id="id4" class="form-control">
+                                <option value=> country</option>
+                                <option value= "in">India</option>
+                                <option value="Pak">Pakistan</option>
+                                <option value="Jn">Japan</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" mt-5>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-10">
+                            <button type="submit" onclick="afterclick()" class="btn btn-primary">sign-in</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="col-2">
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
