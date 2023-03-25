@@ -1,4 +1,7 @@
-.font{
+.mycss{
+    border: 2px solid red;
+}
+.css{
     font-size: 20px;
     font-weight: bold;
 }
