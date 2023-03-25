@@ -1,0 +1,156 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="./lib/css/bootstrap.css">
+        <script src="./lib/js/bootstrap.js"></script>
+        <script src="./lib/jquery-3.6.3.js"></script>
+        <script src="./lib/popper.min.js"></script>
+<link rel="stylesheet" href="./mycss.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center   text-primary text bg-success " >web site</h1>
+        <h2><nav class="navbar navbar-expand navbar-dark bg-warning">
+            <div class="container">
+              <a class="navbar-brand" href="./">
+                Cake shop
+              </a>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- NAVBAR LINKS -->
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!--DROPDOWN  -->
+        <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+            >
+              cake flever
+            
+              
+            <!-- DROPDOWN OPTIONS -->
+            <ul class="dropdown-menu">
+              <li><class="dropdown-item" href="choclet">
+            
+            
+              </li>
+              <li><class="dropdown-item" href="stobery">
+            
+        
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- SEARCH BOX -->
+  <form class="d-flex">
+    <input
+      class="form-control me-2"
+      type="search"
+      placeholder="Search flever"
+    />
+    <button class="btn btn-primary" 
+            type="submit">
+      Search
+    </button>
+  </form>
+</div>
+</nav>
+<!-- ARTICLE -->
+<div class="container ">
+    <div class="row">
+      <div class="container"> cake shop information</div>
+      <div class="col-sm-8">
+        <h2 class="bg-secondary"> **cake shop**</h2>
+        
+        <p>
+          GeeksForGeeks is a Computer Science portal
+          for geeks.It contains well written, well
+          thought articles. This platform has been designed
+          for every geek wishing to expand their knowledge,
+          share their knowledge and is ready to grab their
+          dream job. We have millions of articles, live as
+          well as online courses, thousands of tutorials and
+          much more just for the geek inside you.
+        </p>
+         <!-- FORM -->
+      <form class="was-validated">
+        <!-- Email Address Input -->
+        <div class="mb-3">
+          <label for="email" class="form-label">
+            Email Address: 
+          </label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email id"
+            required
+          />
+          <div class="valid-feedback">
+            Valid Email id
+          </div>
+          <div class="invalid-feedback">
+            Please fill out this field.
+          </div>
+        </div>
+        <!-- Password Input -->
+        <div class="mb-3">
+          <label for="password" class="form-label"> 
+            Password: 
+        </label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          placeholder="Enter your password"
+          minlength="8"
+          required
+        />
+        <div class="form-text" id="password-help-block">
+          Password needs to be 8 characters long.
+        </div>
+        <div class="valid-feedback">
+          Valid Password.
+        </div>
+        <div class="invalid-feedback">
+          Please fill out this field.
+        </div>
+      </div>
+      <!-- Checkbox -->
+      <div class="form-check mb-3">
+        <input
+        class="form-check-input"
+            type="checkbox"
+            id="checkbox"
+            required
+          />
+          <label class="form-check-label" for="checkbox">
+            I agree on T & C.
+          </label>
+          <div class="valid-feedback">
+            You Agree to the T & C.
+          </div>
+          <div class="invalid-feedback">
+            Check this checkbox to continue.
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          Submit
+        </button>
+      </form>
+</h2>
+    </div>
+    
+</body>
+</html>
