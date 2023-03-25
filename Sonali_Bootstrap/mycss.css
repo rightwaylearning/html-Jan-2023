@@ -1,0 +1,14 @@
+
+#outer
+{
+    border: 7px solid red;
+    padding: 10px;
+  
+}
+
+#inner{
+    background-color:pink;
+    border:5px solid black;
+
+    
+}

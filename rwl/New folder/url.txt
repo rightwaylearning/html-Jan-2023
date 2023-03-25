@@ -1,0 +1,22 @@
+https://github.com/rightwaylearning/SBI.git
+https://rightwaylearning@github.com/rightwaylearning/SBI.git
+sbi
+
+https://github.com/rightwaylearning/Jan-2023.git
+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   token
+
+https://rightwaylearning@github.com/rightwaylearning/Jan-2023.git
+
+https://github.com/rightwaylearning/html-programs     html program url
+
+reposiry:-  
+$ git push https://rightwaylearning@github.com/rightwaylearning/html-Jan-2023.git master
+
+https://rightwaylearning@github.com/rightwaylearning/html-Jan-2023.git 
+
+
+
+eclips
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-12/R/eclipse-inst-jre-win64.exe&mirror_id=1273
+
+jdk  https://www.oracle.com/in/java/technologies/downloads/#java8-windows

@@ -1,0 +1,10 @@
+#outer{
+    border: black solid 10px;
+    background-color: blueviolet;
+}
+#inner{
+    border: black solid 10px;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 30px;
+}
