@@ -1,0 +1,12 @@
+#mycss{
+    background-color: #e5bda0d5;
+    border: 10px solid black;
+}
+
+#outer{
+    border: 10px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+}
