@@ -1,0 +1,25 @@
+
+<html>
+<head>
+    <!-- <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./../lib/css/bootstrap.css">
+    <script src="./../lib/js/bootstrap.js"></script>
+    <script src="./../lib/jquery-3.6.3.js"></script>
+    <script src="./../lib/popper.min.js"></script> -->
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="#" title="i am popover" data-trigger="focus" data-content="some text info" data-toggle="popover">Popover:-after clicking on it it shows some info</a>
+    </div>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+        });
+        </script>
+</body>
+</html>
