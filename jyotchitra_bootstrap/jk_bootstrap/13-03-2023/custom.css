@@ -1,0 +1,11 @@
+.my_border{
+    border: 2px solid rgb(32, 3, 3);
+
+}
+
+.custom-border{
+    border: 5px solid black;
+    padding: 3px;
+    margin: 3px;
+
+}
