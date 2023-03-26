@@ -2,47 +2,90 @@
 <html lang="en">
 <head>
     
-<meta name="viewport" content="width=device-width">
-<link ref="stylesheet" href="./../lib/css/bootstrap.css">
-<script src="./../lib/js/bootstrap.js"></script>
-<script src="./../lib/jquery-3.6.3.js"></script>
-<script src="./../lib/popper.min.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../lib/css/bootstrap.css">
+    <script src="./../lib/jquery-3.6.3.js"></script>
+    <script src="./../lib/popper.min.js"></script>
+    <script src="./../lib/js/bootstrap.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-10">
-                <h1 class="display">Login Form</h1>
+         <div class="col-10">
+        <h1 class="display-4">Contact Us </h1>
+        <div class="form-group">
+           
+           <label for="id">Enter Your Name</label>
+           <input class="form-control" type="Name" name="my Name id="id placeholder="Enter your full Name">
 
-                <form>
-                
-                    <div class="form-group">
-                        <label for="id">Enter Your Name</label>
-                        <input class="form-control" type="name" name="Myname" id="id" placeholder="Enter your full name">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="id1">Mail I'd</label>
-                        <input class="form-control" type="gmail" name="Myemail" id="id1" placeholder="Enter your email i'd">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="id2">Password</label>
-                        <input class="form-control" type="pwd" name="Mypassword" id="id2" placeholder="Enter your password">  
-                    </div>
-
-                </form>
-
-            </div>
-
+           <form>
+        </div>
+        <div class="form-group">
+            <label for="id2">Email</label>
+            <input class="form-control" type="email" name="my_email" id="id1" placeholder="Enter mail id">
         </div>
 
-       
-            
+        <div class="form-group">
+         <input class="form-control" type="password" name="pwd" id="id2" placeholder="Enter Password">
+       </div>
 
-        
+       <div class="form-group">
+         <label for="id3">Country</label>
+         <select  class="form-control" name="selectCountry" id="id3">
+    </body>
+    <label for="id2">Enter Your Email</label>
+    <option>Please Select</option>
+    <option>India-IN</option>
+    <option>Japan</option>
+    <option>Pakistan</option>
+    <option>Shri-Lanka</option>
+</select>
+</div>
+<div class="form-group">
+    <label for="id4">Subject</label>
+    <select  class="form-control" name="Subject" id="id4"></select>
+    
+ </div>
 
+ <div class="form-group">
+   <label>Select Gender</label>
+
+   <div class="form-check">
+       <label>
+           <input type="radio" class="form-check-input" name="gender">
+           Male
+       </label>
+     </div>
+     <div class="form-check">
+       <label>
+           <input type="radio" class="form-check-input" name="gender">
+           Female
+       </label>
+     </div>
+ </div>
+
+ <div class="form-group">
+   <div class="form-check">
+       <label>
+          <input class="form-check-input" type="checkbox" name="check" checked>
+          Remember me
+       </label>
     </div>
+ </div>
+
+ <button type="submit" class="btn btn-primary">Send</button>
+
+</form>
+</div>
+<div class="col-2"></div>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+</html>
 </body>
 </html>
